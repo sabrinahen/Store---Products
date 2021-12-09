@@ -16,7 +16,7 @@
 #         print(f"Name: {self.name}, Price: {self.price}, Category: {self.category}")
 #         return self
 
-import product
+from product import Product
 
 class Store:
     def __init__(self, name):

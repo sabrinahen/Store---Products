@@ -1,5 +1,5 @@
-import product
-import store 
+from product import Product
+from store import Store
 
 sabrina = Store("Sabrina's Store")
 apple = Product("apple", 5, "Fruit")
